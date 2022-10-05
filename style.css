@@ -206,6 +206,7 @@ section {
 .image-banner img {
     width: 100%;
     max-width: 450px;
+    background-size: cover;
 }
 
 /* section home responsiva */
@@ -217,6 +218,7 @@ section {
 
     .image-banner img {
         max-width: 400px;
+        background-size: cover;
     }
 
     .text-banner h3 {
@@ -243,6 +245,7 @@ section {
 
     .image-banner img {
         margin-top: 50px;
+        background-size: cover;
     }
 }
 
@@ -317,15 +320,15 @@ section {
     position: absolute;
     width: 100%;
     max-width: 300px;
-    min-height: 50vh;
-    background-size: cover;
+    height: 250px;
     border-radius: 3px;
     transition: .4s;
     overflow: hidden;
+    display: block;
 }
 
 .image {
-    height: 0px;
+    display: none;
 }
 
 /* section popular */
@@ -354,6 +357,7 @@ section {
 .card-popular img {
     width: 100%;
     border-radius: 3px;
+    background-size: cover;
 }
 
 .card-popular h3 {
