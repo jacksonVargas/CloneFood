@@ -709,13 +709,13 @@ footer span {
 
 @media (max-width: 415px) {
     .menu ul.active  {
-        height: 43vh;
+        height: 45vh;
     }
 }
 
 @media (max-width: 395px) {
     .menu ul.active  {
-        height: 45vh;
+        height: 47vh;
     }
 }
 
